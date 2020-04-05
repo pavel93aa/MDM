@@ -6,13 +6,11 @@ import org.junit.jupiter.api.Test;
 import ru.mdm.businesslayer.BusinessComponent;
 import ru.mdm.businesslayer.Customer;
 import ru.mdm.integration.IntegrationMessage;
-import ru.mdm.integration.jaxb.dev.customerAddRq.customerAddRqType;
 import ru.mdm.model.User;
 import ru.mdm.steps.Esb;
 import ru.mdm.utils.Utils;
 import ru.mdm.xmlbuild.CustomerAddRqXmlBuilder;
 
-import javax.xml.bind.JAXBException;
 import java.nio.charset.Charset;
 
 /**
